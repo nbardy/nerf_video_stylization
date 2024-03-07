@@ -1,6 +1,16 @@
 ## Neural Video Stylization
-A github repo to collect style nerf code, video nerf code, and add the devops to make it all runnable.
+A github repo with two goals:
+1. Add the devops to Make NERFs easy to generate with a single 
+2. Add stylization code from other NERF repos
 
+
+### Plan
+#### Devops Code [1]:
+Get three apple neumann scripts working to preprocess, train, and render.
+(Should run on modal or colab to be easily reusable and avoid dependancy issues)
+
+
+#### Style Code [2]:
 1) Add a style loss
 2) Add a geometry loss
 3) Use CLIP for style instead of VGG
