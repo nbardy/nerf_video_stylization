@@ -1,6 +1,6 @@
 ## Neural Video Stylization
 A github repo with two goals:
-1. Add the devops to Make NERFs easy to generate with a single 
+1. Make it easy to generate NERFs with a single ios Video
 2. Add stylization code from other NERF repos
 
 
