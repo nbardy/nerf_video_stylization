@@ -24,6 +24,6 @@ https://hyblue.github.io/geo-srf/
 - [🚧] apple Neumann preprocessing working on Modal
 - [ ] Train running on modal
 - [ ] Inference running on modal
-### Research
-- [ ] Migrate Style Loss
-- [ ] Migrate Geometry Loss
+### Research Code
+- [ ] Add Style Loss
+- [ ] Add Geometry/Depth Loss
