@@ -15,16 +15,13 @@ Get three apple neumann scripts working to preprocess, train, and render.
 2) Add a geometry loss
 3) Use CLIP for style instead of VGG
 
-Taking inspiration from below we train a pair of networks to do style and realistic rendering. We use propose to use a LORA to train the style output. We also use CLIP instead of VGG to add text guidance
+Taking inspiration from ARF[1] we train a pair of networks to do style and realistic rendering. We use a LORA to train the style output instead of a new model.
 
-https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910701.pdf
-Take: (Multiple Models)
-Leave: Feature Matching, Copy the whole net(Use LORA)
-Add: Use CLIP instead of VGG
+[1] https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910701.pdf
 
 2) Geometry Loss
 - Add a loss for the Depth of the image matching the original with MIDAS
-- Add a depth style loss for the style output that takes an input image or a tet and uses CLIP instead of VGG
+- Add a depth style loss with CLIP
 
 Reference:
 https://hyblue.github.io/geo-srf/
